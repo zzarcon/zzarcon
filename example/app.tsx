@@ -1,22 +1,17 @@
 import * as React from 'react';
-import {Component} from 'react';
 import {GHCorner} from 'react-gh-corner';
-import {AppWrapper} from './styled';
-export interface AppState {
-  
-}
-const repoUrl = 'https://github.com/zzarcon/';
-export default class App extends Component <{}, AppState> {
-  state: AppState = {
-    
-  }
+import {AppWrapper, GlobalStyles} from './styled';
 
-  render() {
-    return (
-      <AppWrapper>
-        <GHCorner openInNewTab href={repoUrl} />
-        Example!
-      </AppWrapper>
-    )
-  }
+const repoUrl = 'https://github.com/zzarcon/zzarcon';
+
+const App = () => {
+  return (
+    <AppWrapper>
+      <GlobalStyles />
+      <GHCorner openInNewTab href={repoUrl} />
+      Example!
+    </AppWrapper>
+  )
 }
+
+export default App
