@@ -25,14 +25,14 @@ const App = () => {
         <GHCorner openInNewTab href={repoUrl} />
       </AppWrapper>
       <Switch>
-        <Route path="/">
-          <Home />
-        </Route>
         <Route path="/home">
           <Home />
         </Route>
         <Route path="/movies">
           <Movies />
+        </Route>
+        <Route path="/">
+          <Home />
         </Route>
       </Switch>
     </Router>
