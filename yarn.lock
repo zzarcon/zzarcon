@@ -9011,10 +9011,10 @@ tryer@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/tryer/-/tryer-1.0.1.tgz#f2c85406800b9b0f74c9f7465b81eaad241252f8"
 
-ts-react-toolbox@^0.2.15:
-  version "0.2.15"
-  resolved "https://registry.yarnpkg.com/ts-react-toolbox/-/ts-react-toolbox-0.2.15.tgz#1e47d34b4a4f8fbe2d4aa33d1294e0d241d2b5b3"
-  integrity sha512-Tzfui0Dc+/E2uHNQLLfC8s+iVi3aCUC7UZ3wIj9rf/ZVe9GDDxHrJutTKkWQRpx3MU7QpfDMJRIlQxwEzXfb3Q==
+ts-react-toolbox@^0.2.16:
+  version "0.2.16"
+  resolved "https://registry.yarnpkg.com/ts-react-toolbox/-/ts-react-toolbox-0.2.16.tgz#3cc1b968b4c306ebc02f7fa66a6f4c3f83e0b42e"
+  integrity sha512-b3Se+qddUeZZeIUUIMFHmn3uzlSyfSJJJKwstG7G0AfYVT537P4keGzEhUK+ltbSQd15r9WZbfk8rQpkI/bsag==
   dependencies:
     "@types/enzyme" "^3.10.5"
     "@types/gh-pages" "^2.2.0"
