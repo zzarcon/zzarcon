@@ -2,6 +2,7 @@ import * as React from 'react';
 import {FC} from 'react';
 import { moviesData } from '../data/movies';
 import {Movie} from '../types';
+import { MoviesPanel, MoviesWrapper, MovieWrapper, MovieCover, MovieTitle } from '../styled';
 
 export interface MoviesProps {
 
@@ -13,8 +14,12 @@ export const Movies: FC<MoviesProps> = () => {
  
   return (
     <div>
-      Favourite movies (in order)
-      {movies}
+      <MoviesPanel>
+        Favourite movies by <a href="https://www.instagram.com/zzarcon" target="_blank">@zzarcon</a>
+      </MoviesPanel>
+      <MoviesWrapper>
+        {movies}
+      </MoviesWrapper>
     </div>
   )
 }
@@ -23,11 +28,11 @@ interface MovieProps extends Movie {
 
 }
 
-const Movie: FC<MovieProps> = ({name, coverUrl, youtubeTrailerId}) => {
+const Movie: FC<MovieProps> = ({name, coverUrl}) => {
   return (
-    <div>
-      {name}
-      <img src={coverUrl} alt={name} />
-    </div>
+    <MovieWrapper>
+      <MovieTitle>{name}</MovieTitle>
+      <MovieCover src={coverUrl} alt={name} />
+    </MovieWrapper>
   )
 }
