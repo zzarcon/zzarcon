@@ -9115,10 +9115,10 @@ tryer@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/tryer/-/tryer-1.0.1.tgz#f2c85406800b9b0f74c9f7465b81eaad241252f8"
 
-ts-react-toolbox@^0.2.17:
-  version "0.2.17"
-  resolved "https://registry.yarnpkg.com/ts-react-toolbox/-/ts-react-toolbox-0.2.17.tgz#c7edc18f80ead60c0253bb86b9da849f6887dd51"
-  integrity sha512-rp2sdZk7mGWFT9yomi4clIaC/sNQb8Gji3uUz6/RtNZQlgX/eu4e//B12O5FBmOOHknM+SpSvQqmq+OLqhFtGg==
+ts-react-toolbox@^0.2.18:
+  version "0.2.18"
+  resolved "https://registry.yarnpkg.com/ts-react-toolbox/-/ts-react-toolbox-0.2.18.tgz#4b830dfd228b6b16f3e5e8249c368991113d1fc2"
+  integrity sha512-kkAPzakQ+1aqiTk1O3arZzWPjCC77k8VCUSaMOLR4tqdTcesQ/fzEieBCHyUC6i3j6/sBpFgMO7+s6Ln1w8hyg==
   dependencies:
     "@types/enzyme" "^3.10.5"
     "@types/gh-pages" "^2.2.0"

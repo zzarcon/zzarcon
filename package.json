@@ -8,7 +8,7 @@
   "devDependencies": {
     "@types/react-native": "^0.62.4",
     "@types/react-router-dom": "^5.1.5",
-    "ts-react-toolbox": "^0.2.17"
+    "ts-react-toolbox": "^0.2.18"
   },
   "engines": {
     "node": ">=8.5.0"
