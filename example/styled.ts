@@ -1,4 +1,4 @@
-import styled, {createGlobalStyle} from 'styled-components';
+import styled, {createGlobalStyle, keyframes} from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
   body {
@@ -49,6 +49,12 @@ export const MovieWrapper = styled.div`
   overflow: hidden;
   box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
   border-radius: 3px;
+  cursor: pointer;
+  transition: box-shadow .3s;
+
+  &:hover {
+    box-shadow: 0px 0px 16px 4px rgba(48, 64, 176, 0.65), 0 0 0 1px rgba(0,0,0,0.08);
+  }
 `
 
 export const MoviesPanel = styled.div`
@@ -71,4 +77,25 @@ export const MoviesPanel = styled.div`
       text-decoration: underline;
     }
   }
+`;
+
+const fadeIn = keyframes`
+  0% {
+    background: rgba(0,0,0,0.0)
+  }
+  100% {
+    background: rgba(0,0,0,0.8)
+  }
+`
+
+export const TrailerWrapper = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: ${fadeIn} .5s forwards;
 `;
