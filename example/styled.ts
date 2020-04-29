@@ -9,6 +9,14 @@ export const GlobalStyles = createGlobalStyle`
   * {
     box-sizing: content-box;
   }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 `;
 
 export const AppWrapper = styled.div`
@@ -98,4 +106,34 @@ export const TrailerWrapper = styled.div`
   align-items: center;
   justify-content: center;
   animation: ${fadeIn} .5s forwards;
+`;
+
+export const MoviesLinkWrapper = styled.div`
+  width: 300px;
+  background-color: #ccc;
+  background-image: url(/assets/movies_bg.jpg);
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+  margin: 20px auto;
+  height: 200px;
+  border-radius: 10px;
+  color: black;
+  position: relative;
+  overflow: hidden;
+
+  &:before {
+    content: 'Movies';
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    text-shadow: 1px 1px black;
+  }
 `;
