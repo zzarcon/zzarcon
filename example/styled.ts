@@ -85,6 +85,10 @@ export const MoviesPanel = styled.div`
       text-decoration: underline;
     }
   }
+
+  button {
+    margin-left: 20px;
+  }
 `;
 
 const fadeIn = keyframes`
@@ -96,7 +100,7 @@ const fadeIn = keyframes`
   }
 `
 
-export const TrailerWrapper = styled.div`
+export const BlanketWrapper = styled.div`
   position: fixed;
   top: 0;
   left: 0;
@@ -135,5 +139,11 @@ export const MoviesLinkWrapper = styled.div`
     height: 100%;
     background: rgba(0,0,0,0.5);
     text-shadow: 1px 1px black;
+  }
+`;
+
+export const AddMoviePopupWrapper =  styled.div`
+  input {
+    margin-right: 20px;
   }
 `;

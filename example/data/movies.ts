@@ -113,10 +113,6 @@ export const moviesData: Movie[] = [{
   coverUrl: 'https://resizing.flixster.com/gHVCwQVA5yF-3WGW_KoQN1Ko1yg=/206x305/v1.bTsxMTE3NjU4NztqOzE4NDg5OzEyMDA7ODAwOzEyMDA',
   youtubeTrailerId: ''
 }, {
-  name: 'The Adjustment Bureau',
-  coverUrl: 'https://resizing.flixster.com/gHVCwQVA5yF-3WGW_KoQN1Ko1yg=/206x305/v1.bTsxMTE3NjU4NztqOzE4NDg5OzEyMDA7ODAwOzEyMDA',
-  youtubeTrailerId: ''
-}, {
   name: 'Rounders',
   coverUrl: 'https://resizing.flixster.com/5HPFHj1yVw-5NyMFsJSo1IbXw1o=/206x305/v1.bTsxMTQ1MzQ4OTtqOzE4NDkyOzEyMDA7MTIwMDsxNjAw',
   youtubeTrailerId: ''
