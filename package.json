@@ -9,7 +9,8 @@
     "@types/date-fns": "^2.6.0",
     "@types/react-native": "^0.62.4",
     "@types/react-router-dom": "^5.1.5",
-    "ts-react-toolbox": "^0.2.20"
+    "@types/styled-components": "^5.1.21",
+    "ts-react-toolbox": "^1.1.14"
   },
   "engines": {
     "node": ">=8.5.0"
@@ -41,6 +42,7 @@
     "firebase": "^7.14.2",
     "mobx": "^6.3.13",
     "mobx-react-lite": "^3.2.3",
-    "react-router-dom": "^5.1.2"
+    "react-router-dom": "^5.1.2",
+    "styled-components": "^5.3.3"
   }
 }
