@@ -142,6 +142,44 @@ export const MoviesLinkWrapper = styled.div`
   }
 `;
 
+export const CaliLinkWrapper = styled.div`
+  width: 300px;
+  background-color: white;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 10px 0;
+  background-image: url(/assets/sw.png);
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+  margin: 20px auto;
+  height: 126px;
+  border-radius: 10px;
+  color: black;
+  position: relative;
+  overflow: hidden;
+
+  &:before {
+    content: 'Cali';
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    text-shadow: 1px 1px black;
+  }
+`;
+
+export const CoffeeLinkWrapper = styled.a`
+
+`;
+
 export const AddMoviePopupWrapper =  styled.div`
   input {
     margin-right: 20px;

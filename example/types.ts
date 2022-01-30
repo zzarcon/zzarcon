@@ -3,3 +3,10 @@ export interface Movie {
   coverUrl: string;
   youtubeTrailerId: string;
 }
+
+export interface Goal {
+  name: string;
+  startDate: Date;
+  image: string;
+  deadline?: Date;
+}

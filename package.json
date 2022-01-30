@@ -6,6 +6,7 @@
   "author": "Hector Leon Zarco Garcia <hezarco@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/date-fns": "^2.6.0",
     "@types/react-native": "^0.62.4",
     "@types/react-router-dom": "^5.1.5",
     "ts-react-toolbox": "^0.2.20"
@@ -34,8 +35,12 @@
   },
   "dependencies": {
     "@atlaskit/button": "^13.3.11",
+    "@atlaskit/icon": "^21.10.2",
     "@atlaskit/textfield": "^3.1.9",
+    "date-fns": "^2.28.0",
     "firebase": "^7.14.2",
+    "mobx": "^6.3.13",
+    "mobx-react-lite": "^3.2.3",
     "react-router-dom": "^5.1.2"
   }
 }
