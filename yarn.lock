@@ -47,6 +47,17 @@
     "@babel/runtime" "^7.0.0"
     "@emotion/core" "^10.0.9"
 
+"@atlaskit/lozenge@^11.1.6":
+  version "11.1.6"
+  resolved "https://packages.atlassian.com/api/npm/npm-remote/@atlaskit/lozenge/-/lozenge-11.1.6.tgz#fa9b6978d9292f58275b763e2c29cefb75974ac0"
+  integrity sha512-X5VDKUswGcvQTdmfSC9BmdrFJQwWjZoXEmyMsN3KDP335+go285MZI70yMKvwDqq1j1Wnn8rYccvHbnYdLAPYA==
+  dependencies:
+    "@atlaskit/codemod-utils" "^3.4.0"
+    "@atlaskit/theme" "^12.1.0"
+    "@atlaskit/tokens" "^0.6.0"
+    "@babel/runtime" "^7.0.0"
+    "@emotion/core" "^10.0.9"
+
 "@atlaskit/spinner@^12.1.6":
   version "12.1.6"
   resolved "https://registry.yarnpkg.com/@atlaskit/spinner/-/spinner-12.1.6.tgz#bf8cfef92ebbdb87c492d087032e4096c4840078"

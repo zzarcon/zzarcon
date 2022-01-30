@@ -3,7 +3,8 @@ import {FC} from 'react';
 import { makeAutoObservable } from "mobx"
 import { observer } from "mobx-react-lite"
 import { format, formatDistanceToNowStrict } from 'date-fns'
-import { GoalsWrapper, UserName, CaliWrapper, ProfilePhoto, ProfileWrapper } from './cali-styled'
+import Lozenge from '@atlaskit/lozenge';
+import { GoalStatus, GoalsWrapper, UserName, CaliWrapper, ProfilePhoto, ProfileWrapper } from './cali-styled'
 import { Goal as GoalType} from '../types'
 import { Goal } from '../components/goal'
 
@@ -57,9 +58,14 @@ export const Cali: FC<CaliProps> = () => {
           <UserName>{user.name}</UserName>
           <div>⚖️ {user.height}cm / {user.weight}kg</div>
           <div>🐣 {format(user.dateOfBirth, 'dd/MM/yyyy')}</div>
-          <div>🧱 Started cali {startTraining}</div>
+          <div>🧱 Cali since {startTraining}</div>
         </div>
       </ProfileWrapper>
+      <GoalStatus>
+        <Lozenge appearance='new' isBold>
+          In progress
+        </Lozenge>
+      </GoalStatus>
       <GoalsWrapper>
         {goalsContent}
       </GoalsWrapper>

@@ -27,3 +27,10 @@ export const GoalsWrapper = styled.div`
   padding-top: 10px;
   display: flex;
 `;
+
+export const GoalStatus = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+`

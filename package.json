@@ -37,6 +37,7 @@
   "dependencies": {
     "@atlaskit/button": "^13.3.11",
     "@atlaskit/icon": "^21.10.2",
+    "@atlaskit/lozenge": "^11.1.6",
     "@atlaskit/textfield": "^3.1.9",
     "date-fns": "^2.28.0",
     "firebase": "^7.14.2",
